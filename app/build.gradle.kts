@@ -65,6 +65,7 @@ dependencies {
     implementation(libs.zxing.core)
     implementation(libs.zxing.android.embedded)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.car.ui.lib)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
