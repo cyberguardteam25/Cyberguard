@@ -27,7 +27,7 @@ CyberGuard is an all-in-one Android cybersecurity toolkit designed for everyday 
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/cyberguardteam25/cyberguard.git
+   git clone https://github.com/cyberguardteam25/Cyberguard.git
 
 2. Android Setup
 - Open in Android Studio
