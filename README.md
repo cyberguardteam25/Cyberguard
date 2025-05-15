@@ -39,8 +39,8 @@ CyberGuard is an all-in-one Android cybersecurity toolkit designed for everyday 
 - Add your backend URL in the Retrofit interface files (ApiClient.kt)
 - Run the app on Android 8.0+ or emulator
 
-3. Backend Setup (optional)
-- Setup Python environment
+3. Backend Setup (u need to access the backemd code to be able to set up)
+- Setup Python environment (backed up  code)
 - Run Flask/FastAPI server
 - Use Ngrok to expose your local backend if needed
 
