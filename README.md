@@ -4,13 +4,14 @@ CyberGuard is an all-in-one Android cybersecurity toolkit designed for everyday 
 
 ## 📱 Features
 
-- **Malware Scanner** – Upload APKs for analysis via a Python-powered backend.
-- **Phishing Link Scanner** – Check if links are malicious or suspicious using AI models.
-- **QR Code Scanner** – Extract URLs from QR codes and instantly scan for safety.
-- **Device Information Scanner** – Collect and analyze basic system data for security insights.
-- **User Authentication** – Secure login, registration with email verification, and session tracking.
-- **User Profile Management** – Update your username, email, and password securely from the app.
-- **Scan History** – View your previous scans and results linked to your user ID.
+- **APK Scan** – Upload APKs for analysis using AI models.
+- **Text Scan** – Check if text is malicious or suspicious using AI models.
+- **URL Scan** -Check if links are malicious or suspicious using virustotal
+- **QR Scan** – Extract URLs from QR codes and instantly scan for safety.
+- **Device Info** – Collect basic system data.
+- **User Authentication** – Secure login and registration.
+- **History** – View your previous scans and results linked to your user ID.
+- and even more...!
 
 ## 🧠 Tech Stack
 
@@ -60,7 +61,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ![Screenshot_20250507_204306_CyberGuard](https://github.com/user-attachments/assets/a387c0be-b222-4fdd-a6ed-0778472cc9e4)
 ![Screenshot_20250507_204914_CyberGuard](https://github.com/user-attachments/assets/b0f6b1f6-b8a3-43a4-b4be-63ed974306c6)
 ![Screenshot_20250507_202257_CyberGuard](https://github.com/user-attachments/assets/059d0f8d-c3bf-4df5-896f-134fcc4ff021)
-![Screenshot_20250507_202257_CyberGuard](https://github.com/user-attachments/assets/a50510d3-7fd9-40f4-bb0b-30569e32a55a)
+![Screenshot_20250507_202259_CyberGuard](https://github.com/user-attachments/assets/31b4f862-9cc6-41eb-8604-c7d78eebcba5)
 ![Screenshot_20250507_202047_CyberGuard](https://github.com/user-attachments/assets/659066b7-12ca-46ab-8baf-444e8f574018)
 ![Screenshot_20250507_201901_CyberGuard](https://github.com/user-attachments/assets/6b8dc905-4fa0-4644-8e05-993f565603cd)
 ![Screenshot_20250507_202253_CyberGuard](https://github.com/user-attachments/assets/22d608e6-2b2a-459a-a87a-5cad932304a8)
