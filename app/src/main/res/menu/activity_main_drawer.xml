@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/cyberguard"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_ai"
+            android:icon="@drawable/chat"
+            android:title="@string/menu_ai" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/baseline_history_24"
+            android:title="@string/menu_history" />
+
+        <item
+            android:id="@+id/nav_awareness"
+            android:icon="@drawable/advice"
+            android:title="@string/menu_awareness"/>
+
+    </group>
+
+
+    <item
+        android:id="@+id/spacer2"
+        android:title=""
+        android:enabled="false"
+        android:icon="@android:color/transparent"
+        android:orderInCategory="100" />
+
+    <item
+        android:id="@+id/spacer3"
+        android:title=""
+        android:enabled="false"
+        android:icon="@android:color/transparent"
+        android:orderInCategory="100" />
+
+    <item
+        android:id="@+id/spacer4"
+        android:title=""
+        android:enabled="false"
+        android:icon="@android:color/transparent"
+        android:orderInCategory="100" />
+
+    <item
+        android:id="@+id/spacer5"
+        android:title=""
+        android:enabled="false"
+        android:icon="@android:color/transparent"
+        android:orderInCategory="100" />
+
+
+    <group
+        android:id="@+id/bottom_group"
+        android:checkableBehavior="none"
+        android:orderInCategory="200">
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings"
+            android:icon="@drawable/settings"/>
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="@string/menu_logout"/>
+
+
+
+    </group>
+</menu>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="delete_account_button" type="id" />
+    <item name="change_password_button" type="id" />
+</resources>

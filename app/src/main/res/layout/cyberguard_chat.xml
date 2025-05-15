@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbarThumbVertical="@drawable/custom_scrollbar"
+    android:scrollbarSize="6dp"
+    android:scrollbarStyle="outsideOverlay"
+    android:fadeScrollbars="false"
+    android:layout_gravity="center"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp">
+
+            <TextView
+                android:id="@+id/UserText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="You"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/textColorPrimary"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/UserSection"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textIsSelectable="true"
+                android:background="@drawable/chat_bubble_right"
+                android:padding="16dp"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"
+                android:layout_marginStart="60dp"
+                android:elevation="4dp"
+                android:outlineAmbientShadowColor="@android:color/darker_gray"
+                android:outlineSpotShadowColor="@android:color/darker_gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/UserText"
+                 />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp">
+
+            <TextView
+                android:id="@+id/cyberguardText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cyberguard"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="?attr/textColorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cyberguardSection"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textIsSelectable="true"
+                android:background="@drawable/chat_bubble_left"
+                android:padding="16dp"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"
+                android:elevation="4dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cyberguardText" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

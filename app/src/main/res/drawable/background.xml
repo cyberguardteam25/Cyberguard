@@ -1,0 +1,5 @@
+<!-- res/drawable/black_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?attr/colorOnPrimary" /> <!-- Pure black color -->
+    <corners android:radius="10dp" /> <!-- Optional: Add rounded corners if needed -->
+</shape>

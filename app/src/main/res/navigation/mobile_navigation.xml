@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.cyberguard.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.cyberguard.ui.history.HistoryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history"/>
+
+    <fragment
+        android:id="@+id/nav_ai"
+        android:name="com.cyberguard.ui.ai.ChatFragment"
+        android:label="@string/menu_ai"
+        tools:layout="@layout/activity_chat_popup"/>
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.cyberguard.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/settings_fragment"/>
+
+    <fragment
+        android:id="@+id/tool1Fragment"
+        android:name="com.cyberguard.ui.home.tool1.Tool1Fragment"
+        android:label="@string/tool1"
+        tools:layout="@layout/fragment_tool1" />
+
+    <fragment
+        android:id="@+id/tool2Fragment"
+        android:name="com.cyberguard.ui.home.tool2.Tool2Fragment"
+        android:label="@string/tool2"
+        tools:layout="@layout/fragment_tool2" />
+
+    <fragment
+        android:id="@+id/nav_awareness"
+        android:name="com.cyberguard.ui.awareness.AwarenessNavigation"
+        android:label="@string/menu_awareness"
+        tools:layout="@layout/fragment_cyber_awareness" />
+
+    <fragment
+        android:id="@+id/tool3Fragment"
+        android:name="com.cyberguard.ui.home.tool3.Tool3Fragment"
+        android:label="@string/tool3"
+        tools:layout="@layout/fragment_tool3" />
+
+    <fragment
+        android:id="@+id/tool4Fragment"
+        android:name="com.cyberguard.ui.home.tool4.Tool4Fragment"
+        android:label="@string/tool4"
+        tools:layout="@layout/fragment_tool4" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.cyberguard.ui.settings.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/darkModeFragment"
+        android:name="com.cyberguard.ui.settings.darkmode.DarkModeFragment"
+        android:label="@string/dark_mode"
+        tools:layout="@layout/fragment_dark_mode" />
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.cyberguard.ui.settings.account.AccountFragment"
+        android:label="@string/account"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/nav_device"
+        android:name="com.cyberguard.ui.settings.device.DeviceFragment"
+        android:label="@string/device"
+        tools:layout="@layout/fragment_device" />
+
+
+
+
+
+</navigation>
