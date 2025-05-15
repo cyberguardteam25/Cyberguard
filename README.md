@@ -54,7 +54,7 @@ For questions, feedback, or contributions:
 🙌 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-📸 Screenshots
+📸 Screenshots (few samples):
 ![Screenshot_20250507_211703_CyberGuard](https://github.com/user-attachments/assets/23151c4b-0db3-4089-b514-c492d13314a7)
 ![Screenshot_20250507_211707_CyberGuard](https://github.com/user-attachments/assets/9f312fb5-480c-485d-b5b7-d1bb58317020)
 ![Screenshot_20250507_202320_CyberGuard](https://github.com/user-attachments/assets/7ed5f7f0-bcb7-4c0b-8a35-4f20d443c30c)
