@@ -6,7 +6,8 @@ CyberGuard is an all-in-one Android cybersecurity toolkit designed for everyday 
 #To view the backend and other files like the video and other stuff check this link:
 https://github.com/cyberguardteam25/Cyberguard_GitHub/tree/main/Cyberguard_GitHub
 
-#To Download the App, access this link and click on download raw:
+#To Download the App, check the following links:
+https://www.dropbox.com/scl/fi/3jsd1u2gvkv2ucoipjet8/CyberGuard.apk?rlkey=ruqe2qz3spaq9lkx026kszzvq&st=436gbwba&dl=1
 https://github.com/cyberguardteam25/Cyberguard_GitHub/blob/main/Cyberguard_GitHub/CyberGuard.apk
 
 ## 📱 Tools
